@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh - Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('back.jpg') no-repeat center center fixed; /* Add background image */
+            background-size: cover; /* Cover the entire page */
+            color: #343a40;
+        }
+        .container {
+            max-width: 100%; /* Full width on desktop */
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ccc; /* Border added */
+        }
+        .header {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 20px; /* Added padding */
+            border-bottom: 1px solid #ccc; /* Added border-bottom for sections */
+        }
+        .section h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #6c757d; /* Updated border color */
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #6c757d; /* Updated header color */
+        }
+        .section p {
+            margin: 10px 0;
+        }
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+        .nav-container {
+            background-color: #343a40;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .nav-container a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        .nav-container a:hover {
+            background-color: #6c757d;
+        }
+        .footer {
+            background-color: #000;
+            color: #666;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            font-size: 0.8em;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        .hidden-image {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="din.jpeg" alt="Profile Picture">
+        <h1>Dinesh</h1>
+    </header>
+
+    <div class="nav-container">
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer and electronics enthusiast studying in the Electronics and Communication Engineering (ECE) department at Sri Krishna College of Technology, Coimbatore, Tamil Nadu, India. I enjoy exploring new technologies and implementing them in creative projects.</p>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p><strong>Schooling:</strong> Stanes Higher Secondary School, Coimbatore</p>
+            <p><strong>Bachelor's Degree:</strong> Electronics and Communication Engineering - Sri Krishna College of Technology, Coimbatore</p>
+            <p><strong>CGPA:</strong> 9.9</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <p><strong>Programming Languages:</strong> C, C++, Python</p>
+            <p><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React</p>
+            <p><strong>Tools & Frameworks:</strong> MATLAB, Verilog, Arduino, Bootstrap</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p><strong>Smart Home Automation System:</strong> Developed an IoT-based system for home automation using Arduino and sensors.</p>
+            <p><strong>Signal Processing Application:</strong> Built a MATLAB application for audio signal processing and analysis.</p>
+            <p><strong>Web Development Portfolio:</strong> Created a personal website showcasing projects and skills.</p>
+            <p><strong>E-commerce Website:</strong> Collaborated on building an online store with responsive design and payment gateway integration.</p>
+            <p><strong>Machine Learning Model:</strong> Implemented a sentiment analysis model using Python and TensorFlow.</p>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <p><strong>Embedded Systems Certification</strong></p>
+            <p><strong>Machine Learning Fundamentals</strong></p>
+            <p><strong>Web Development Certification</strong></p>
+            <img src="din.jpg" alt="Certification Image" class="hidden-image" id="certificationImage">
+        </section>
+
+        <section id="hobbies" class="section">
+            <h2>Hobbies</h2>
+            <p>Reading, Playing Keyboard, Cycling, Photography</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> dinesh@example.com</p>
+            <p><strong>Phone Number:</strong> +91 98765 43210</p>
+            <p><strong>Address:</strong> 789 Park Avenue, Coimbatore, Tamil Nadu, India</p>
+        </section>
+
+        <div class="links">
+            <a href="https://www.linkedin.com/in/dinesh-skct-80aa372a2/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Dinesh131204" target="_blank">GitHub</a>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Dinesh. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Show image when 'Certifications' link is clicked
+        document.querySelector('a[href="#certifications"]').addEventListener('click', function() {
+            document.getElementById('certificationImage').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
